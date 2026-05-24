@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+
+# Outputs and large data
+outputs/
+data/clean_safe_interaction_csv/
+data/av2*/
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*secret*
+*token*
+*api_key*
